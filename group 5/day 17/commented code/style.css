@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Comfortaa:wght@600&family=Odibee+Sans&family=Roboto+Mono:wght@500&family=Rubik+Bubbles&display=swap');
+/* here I have my font imported */
+body{
+    background: linear-gradient(45deg, rgb(41, 104, 50), rgb(37, 37, 37))fixed;/* here i hame my linear bg*/
+}
+#logo{
+    margin-left: 425px;
+    margin-top: 170px; 
+    /* here i have my logos position */
+    border-radius: 50%;/* here i have my sogos border radius */
+    width: 16%;/*here i have my logos width*/
+    /* here i have styled my logo */
+}
+.txt{
+    /* here i styled my text */
+    font-family: "Roboto Mono";
+    /* here i am using my font */
+    font-size: 30px;
+    /* here i have set my texts font size to 30px */
+    color: chartreuse;
+    /* here i have my texts color */
+}
+#line{
+    /* here i style my decoration line <hr> */
+    border-bottom: 7px dotted greenyellow;
+}

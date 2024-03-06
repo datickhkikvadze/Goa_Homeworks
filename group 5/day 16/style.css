@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Comfortaa:wght@600&family=Odibee+Sans&family=Roboto+Mono:wght@500&family=Rubik+Bubbles&display=swap');
+body{
+    background: linear-gradient(45deg, rgb(41, 104, 50), rgb(37, 37, 37))fixed;
+}
+#logo{
+    margin-left: 425px;
+    margin-top: 170px;
+    border-radius: 50%;
+    width: 16%;
+}
+.txt{
+    font-family: "Roboto Mono";
+    font-size: 30px;
+    color: chartreuse;
+}
+#line{
+    border-bottom: 7px dotted greenyellow;
+}

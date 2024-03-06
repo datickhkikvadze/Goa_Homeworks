@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/img/icon.png">
+    <title>Dati Movies</title>
+</head>
+<body>
+    <!-- nav bar -->
+    <div id ="navbar-cont">
+        <b id="name">Da<span id="ti">ti</span></b>
+        <div id="search-cont">
+            <input type="text" id="search" placeholder="Search...">
+            <i class='bx bx-search-alt' id="search-icon"></i>
+        </div>
+    </div>
+    <!-- vertical nav bar -->
+    <div id="vertical-nav">
+        <div class="trendings-icon">
+            <a href="#" class="trendings-icon">
+                <i class='bx bxs-hot'></i>
+            </a>
+        </div>
+        <div class="explore-icon">
+            <a href="#slider" class="explore-icon">
+                <i class='bx bx-compass'></i>
+            </a>
+        </div>
+        <div class="movies">
+            <a href="#"class="movies">
+                <i class='bx bx-camera-movie'></i>
+            </a>
+        </div>
+        <div class="fovourite-icon">
+            <a href="#" class="fovourite-icon">
+                <i class='bx bx-heart'></i>
+            </a>
+        </div>
+        <div class="home-icon">
+            <a href="/main/index.html" class = "home-icon">
+                <i class='bx bx-home'></i>
+            </a>
+        </div>
+    </div>
+    <!-- photo -->
+    <img src="/img/jumanji.jpg" alt="jumanji" id="jumanji">
+    <!-- play buttons -->
+    <div id="play-cont">
+        <i class='bx bx-right-arrow' id="right-arrow"></i>
+    </div>
+    <div id="play-cont2">
+        <i class='bx bx-right-arrow play-movie' id="right-arrow2"></i>
+    </div>
+    <!-- video cont -->
+    <div class="video-cont">
+        <div class="video-box">
+            <video  id="myvideo" src="/videos/JUMANJI 2_ WELCOME TO THE JUNGLE _ ჯუმანჯი 2 (ქართული თრეილერი - სასაცილო გახმოვანება).mp4" controls ></video>
+            <!-- close-video-icon -->
+            <i class='bx bx-x close-video'></i>
+        </div>
+    </div>
+    <!-- texts|rating|... -->
+    <div id="jumanjicont">
+        <h1 id="jumanjiTxt">Jumanji: Welcome to The Jungle</h1>
+        <div id="rating">
+            <i class='bx bxs-star' class="full-star"></i>
+            <i class='bx bxs-star' class="full-star"></i>
+            <i class='bx bxs-star' class="full-star"></i>
+            <i class='bx bxs-star' class="full-star"></i>
+            <i class='bx bxs-star-half' id="half-star"></i>
+        </div>
+        <div class="Action">
+            <button id="Action">Action</button>
+        </div>
+        <div class="Advanture">
+            <button id="Advanture">Advanture</button>
+        </div>
+        <div class="K4">
+            <button id="K4">4K</button>
+        </div>
+        <h2 id="treilerTxt">Watch The Trailer</h2>
+    </div>
+    <div class="about-movie-cont">
+        <h2></h2>
+    </div>
+    <script src="/jumanji/script.js"></script>
+</body>
+</html>

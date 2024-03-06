@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="icon" href="/img/icon.png">
+    <title>Dati Movies</title>
+</head>
+<body>
+    <!-- nav bar -->
+    <div id ="navbar-cont">
+        <b id="name">Da<span id="ti">ti</span></b>
+        <div id="search-cont">  
+            <input type="text" id="search" placeholder="Search...">
+            <i class='bx bx-search-alt' id="search-icon"></i>
+        </div>
+    </div>
+    <!-- vertical nav bar -->
+    <div id="vertical-nav">
+        <div class="trendings-icon">
+            <a href="#" class="trendings-icon">
+                <i class='bx bxs-hot'></i>
+            </a>
+        </div>
+        <div class="explore-icon">
+            <a href="#slider" class="explore-icon">
+                <i class='bx bx-compass'></i>
+            </a>
+        </div>
+        <div class="movies">
+            <a href="#"class="movies">
+                <i class='bx bx-camera-movie'></i>
+            </a>
+        </div>
+        <div class="fovourite-icon">
+            <a href="#" class="fovourite-icon">
+                <i class='bx bx-heart'></i>
+            </a>
+        </div>
+        <div class="home-icon">
+            <a href="/main/index.html" class = "home-icon">
+                <i class='bx bx-home'></i>
+            </a>
+        </div>
+    </div>
+    <!-- main foto -->
+    <div>
+        <img src="/img/spider-man.jpg" alt="magari kino" id="home-main-foto">
+        <h1 id="photoTxt">Spider<br><span id="ManTxt">Man</span></h1>
+        <p id="Releasing">Releasing: 25 april</p>
+        <div id="play-cont">
+            <i class='bx bx-right-arrow' id="right-arrow"></i>
+        </div>
+    </div>
+
+    <!-- slider -->
+    <section>
+            <!-- Slider main container -->
+        <div class="swiper">
+
+            <div class="swiper-wrapper" id="slider">
+            <!-- Slides -->
+            <div class="swiper-slide" id="slide1"></div>
+            <div class="swiper-slide" id="slide2"></div>
+            <div class="swiper-slide" id="slide3"></div>
+
+            
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>

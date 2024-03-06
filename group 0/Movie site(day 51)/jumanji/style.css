@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: var(--my-bg);
+}
+*{
+    font-family: "Poppins","Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+:root{
+    --my-tag-bg:#25262e;
+    --main-text-color:#237400;
+    --my-brown:#201210;
+    --my-gold:#ce7709;
+    --my-bg:#1e1f2c;
+    --my-raiting:#de9e2f;
+}
+#vertical-nav{
+    position: fixed;
+    top: 125px;
+    background-color: #2d2e39;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 615px;
+    flex-direction: column;
+    font-size: 50px;
+    color: var(--main-text-color);
+}
+.trendings-icon{
+    margin-bottom: 8vh;
+    color: var(--main-text-color);
+    text-decoration: none;
+    transition: 0.5s;
+}
+.trendings-icon:hover{
+    color: var(--my-gold);
+}
+.explore-icon{
+    margin-bottom: 8vh;
+    color: var(--main-text-color);
+    text-decoration: none;
+    transition: 0.5s;
+}
+.explore-icon:hover{
+    color: var(--my-gold);
+}
+.movies{
+    margin-bottom: 8vh;
+    color: var(--main-text-color);
+    text-decoration: none;
+    transition: 0.5s;
+}
+.movies:hover{
+    color: var(--my-gold);
+}
+.fovourite-icon{
+    margin-bottom: 8vh;
+    color: var(--main-text-color);
+    text-decoration: none;
+    transition: 0.5s;
+}
+.fovourite-icon:hover{
+    color: var(--my-gold);
+}
+.home-icon{
+    margin-bottom: 0px;
+    color: var(--main-text-color);
+    text-decoration: none;
+    transition: 0.5s;
+}
+.home-icon:hover{
+    color: var(--my-gold);
+}
+#jumanji{
+    position: absolute;
+    width: 70%;
+    top: 80px;
+    left: 150px;
+    border-radius: 15px;
+}
+#jumanjiTxt{
+    position: absolute;
+    top:530px;
+    left: 180px;
+    color: snow;
+    font-size: 40px;
+}
+#rating{
+    color: var(--my-raiting);
+    position: absolute;
+    top: 620px;
+    left: 200px;
+    font-size: 20px;
+}
+#Action{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    top: 660px;
+    left: 200px;
+    outline: none;
+    border: none;
+    background-color: var(--my-tag-bg);
+    font-size: 25px;
+    color: snow;
+}
+#Advanture{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    top:660px;
+    left: 310px;
+    outline: none;
+    border: none;
+    background-color: var(--my-tag-bg);
+    font-size: 25px;
+    color: snow;
+}
+#K4{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    top: 660px;
+    left: 470px;
+    outline: none;
+    border: none;
+    background-color: var(--my-tag-bg);
+    font-size: 25px;
+    color: snow;
+}
+#treilerTxt{
+    color: snow;
+    position: absolute;
+    top: 690px;
+    left: 300px;
+}
+::placeholder {
+    color: snow;
+    position: absolute;
+    left: 3px;
+}
+#navbar-cont{
+    width: 1900px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+}
+#search-cont{
+    z-index: 2;
+    position: fixed;
+    left: 1450px;
+    color: #fff;
+    background-color: #2d2e39;
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+}
+#search{
+    color: var(--main-text-color);
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+#search-icon{
+    position: absolute;
+    left: 267px;
+    top: 8px;
+    font-size: 25px;
+    color: var(--main-text-color);
+    transition: 0.5s;
+}
+#search-icon:hover{
+    color: white;
+}
+#name{
+    user-select: none;
+    position: fixed;
+    left: 70px;
+    color:snow;
+    font-size: 40px;
+}
+#ti{
+    color: var(--main-text-color);
+    transition: 0.5s;
+}
+#ti:hover{
+    color: var(--my-gold);
+}
+#right-arrow{
+    font-size: 30px;
+    color: snow;
+}
+#right-arrow2{
+    font-size: 30px;
+    color: snow;
+}
+#play-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 700px;
+    left: 220px;
+    background-color: var(--main-text-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+#play-cont2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 380px;
+    left: 1250px;
+    background-color: var(--main-text-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.5s;
+    animation: anim  2s linear infinite;
+}
+#play-cont2:hover{
+    animation: anim2  2s linear infinite;
+}
+@keyframes anim2 {
+    0%{
+        box-shadow: 0 0 0 0 rgb(255, 180, 58, 0.7) ;
+    }
+    40%{
+        box-shadow: 0 0 0 50px rgb(255, 192, 7, 0) ;
+    }
+    80%{
+        box-shadow: 0 0 0 50px rgb(255, 192, 7, 0) ;
+    }
+    100%{
+        box-shadow: 0 0 0  rgb(255, 192, 7, 0) ;
+    }
+}
+@keyframes anim {
+    0%{
+        box-shadow: 0 0 0 0 rgb(73, 117, 2, 1) ;
+    }
+    40%{
+        box-shadow: 0 0 0 50px rgb(76, 118, 8, 0.4) ;
+    }
+    80%{
+        box-shadow: 0 0 0 50px rgba(73, 117, 2, 0) ;
+    }
+    100%{
+        box-shadow: 0 0 0  rgb(255, 192, 7, 0) ;
+    }
+}
+#play-cont2:hover{
+    background-color: var(--my-gold);
+}
+#play-cont:hover{
+    background-color: var(--my-gold);
+}
+/* video-cont */
+.video-cont{
+    position: fixed;
+    top: 30;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: hsl(234, 10%, 20% / 60%);
+    z-index: 400;
+}
+.video-cont.video-show {
+    display: flex;
+}
+.video-box{
+    position: relative;
+    width: 82%;
+}
+.video-box #myvideo{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+.close-video{
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    font-size: 50px;
+    color: var(--main-text-color);
+}
